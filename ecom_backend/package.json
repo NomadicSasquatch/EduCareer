@@ -1,0 +1,47 @@
+{
+  "name": "ecom_backend",
+  "version": "1.0.0",
+  "description": "backend for SC2006",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha test/**/*.test.mjs",
+    "test:json": "mocha \"test/**/*.test.mjs\" --reporter mochawesome --reporter-options reportDir=.tmp,reportFilename=results,quiet=true",
+    "report:csv": "node scripts/json-to-csv.mjs .tmp/results.json .tmp/results.csv",
+    "test:csv": "npm run test:json && npm run report:csv"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "csvjson": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-mysql-session": "^3.0.3",
+    "express-session": "^1.18.1",
+    "get-intrinsic": "^1.3.0",
+    "googleapis": "^105.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.4",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "prompt": "^1.3.0",
+    "puppeteer": "^24.4.0",
+    "simple-git": "^3.27.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "csv-stringify": "^6.5.2",
+    "esmock": "^2.7.0",
+    "mocha": "^11.1.0",
+    "mochawesome": "^7.1.3",
+    "nodemon": "^3.1.7",
+    "sinon": "^20.0.0",
+    "supertest": "^7.1.0"
+  }
+}
