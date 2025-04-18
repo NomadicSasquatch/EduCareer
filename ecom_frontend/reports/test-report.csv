@@ -1,0 +1,4 @@
+"requirementID","description","status","duration","error"
+"REQ-FORGOT-1","page shows controls","passed","1827 ms",""
+"REQ-FORGOT-3","Submitting an invalid email shows validation error for email format","passed","913 ms",""
+"REQ-FORGOT-5","Clicking ""Back to Login"" navigates to the login page","passed","357 ms",""
