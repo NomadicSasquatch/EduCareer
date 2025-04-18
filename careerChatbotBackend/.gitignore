@@ -1,0 +1,19 @@
+# Python Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual Environment folder
+venv/
+# dotenv environment variable file
+.env
+# for FastAPI and Uvicorn logs
+*.log
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
