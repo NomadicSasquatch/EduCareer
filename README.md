@@ -1,4 +1,4 @@
-# Full-Stack E‑Learning & E‑Commerce Platform Monorepo
+# Full-Stack E‑Learning & E‑Commerce Platform
 
 This repository houses a unified, end‑to‑end solution for a modern E‑Learning/E‑Commerce platform—comprising a React/TypeScript frontend, Node.js/Express backend, MySQL database schema, and an AI‑powered chatbot integration. Each subdirectory contains its own detailed README; this top‑level guide provides a high‑level overview, installation steps, and workflow.
 
@@ -17,7 +17,7 @@ This repository houses a unified, end‑to‑end solution for a modern E‑Learn
 
 ## Architecture Overview
 
-- **Monolithic GitHub Repo** with three core services plus an AI chatbot service:  
+- **Monolithic Repo** with three core services plus an AI chatbot service:  
   - **Frontend** (`/ecom_frontend`): React + TypeScript + Redux + Ant Design  
   - **Backend** (`/ecom_backend`): Node.js + Express + MySQL session store + Puppeteer  
   - **Database** (`/ecom_db`): MySQL schema, stored procedures, and seed data  
